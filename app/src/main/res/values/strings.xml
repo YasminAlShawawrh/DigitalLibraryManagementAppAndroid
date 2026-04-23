@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">12122028_1220848_CourseProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="select_category">Select Category</string>
+    <string name="select_availability">Select Availability</string>
+    <string-array name="collection_methods">
+        <item>Pickup from Library</item>
+        <item>Digital Access</item>
+    </string-array>
+    <string-array name="borrowing_durations">
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>4 weeks</item>
+    </string-array>
+    <string-array name="categories">
+        <item>All</item>
+        <item>Fiction</item>
+        <item>Science</item>
+        <item>History</item>
+        <item>Technology</item>
+        <item>Software Engineering</item>
+        <item>Algorithms </item>
+        <item>Literature</item>
+    </string-array>
+    <string-array name="statuses">
+        <item>All</item>
+        <item>Available</item>
+        <item>Borrowed</item>
+        <item>Reserved</item>
+    </string-array>
+    <string name="select_duration">Select duration</string>
+    <string name="select_collection">Select collection method</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+
+</resources>

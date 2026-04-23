@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_dashboard" android:title="Dashboard" />
+    <item
+        android:id="@+id/nav_book_catalog"
+        android:title="Book Catalog" />
+    <item android:id="@+id/nav_borrowed" android:title="My Borrowed Books" />
+    <item android:id="@+id/nav_reading_list" android:title="My Reading List" />
+    <item android:id="@+id/nav_new_arrivals" android:title="New Arrivals" />
+    <item android:id="@+id/nav_profile" android:title="Profile Management" />
+    <item android:id="@+id/nav_info" android:title="Library Info" />
+    <item android:id="@+id/nav_logout" android:title="Logout" />
+</menu>

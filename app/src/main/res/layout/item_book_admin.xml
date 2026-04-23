@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="#EFEFEF">
+
+    <TextView
+        android:id="@+id/text_book_info"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Book Title by Author"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/button_edit_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"/>
+
+    <Button
+        android:id="@+id/button_delete_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"/>
+</LinearLayout>

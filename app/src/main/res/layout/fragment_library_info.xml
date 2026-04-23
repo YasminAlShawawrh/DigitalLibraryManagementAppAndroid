@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:text="🏫 Contact the Library"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📞 Call Library"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Find Us on Map"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📧 Email Librarian"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:text="🕒 Library Hours:\nSun–Thu: 8am – 6pm\n\n📚 Services Offered:\n- Book Lending\n- Study Rooms\n- Digital Resources\n- Research Assistance\n\n📜 📜 Policies &amp; Rules
+\n- Return books on time\n- Maintain silence\n- Respect property"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp" />
+    </LinearLayout>
+</ScrollView>
